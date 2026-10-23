@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0c202a">
+<title>Tide Relay</title><link rel="stylesheet" href="style.css">
+<main><header><span class="brand">◒ TIDE RELAY</span><span id="chapter"></span></header>
+<section class="intro"><p class="eyebrow">A LITTLE ARCHIPELAGO OF LOGIC</p><h1>Every step<br>changes the tide.</h1><p id="note">Collect the pearls. Reach the lighthouse.</p></section>
+<section class="play"><div class="toolbar"><span id="phase"></span><span id="score"></span></div><div id="board" role="group" aria-label="Puzzle board"></div><p id="status" aria-live="polite"></p>
+<div class="actions"><button id="undo">↶ Undo</button><button id="reset">Restart</button><button id="hint">Hint</button><button id="next" hidden>Next island →</button></div></section>
+<aside><h2>Two tides. One way home.</h2><p>Use arrow keys, WASD, or tap a neighboring tile. Collect every <b>pearl</b>, then reach <b>⚑</b>.</p><div class="legend"><span><i class="amber"></i>Amber: enter on amber tide</span><span><i class="blue"></i>Blue: enter on blue tide</span><span><i class="hold">≋</i>Still water: your next step keeps its tide</span></div><p class="small">Undo is unlimited. No timer. Think at your own pace.</p><label>Island <select id="level" aria-label="Choose island"></select></label></aside>
+<footer>Original game by Alexander · Local preview · No ads or tracking</footer></main><script type="module" src="game.mjs"></script></html>
